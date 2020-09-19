@@ -5,7 +5,7 @@ srctype=$2
 
 mkdir downloads
 
-wget -U "Mozilla/5.0" https://dl.google.com/developers/android/qt/images/gsi/gsi_gms_arm64-exp-QPP5.190530.016-5733663.zip -O downloads/temp.zip
+wget -U "Mozilla/5.0" http://download.h2os.com/OnePlus7Pro/MP/OnePlus7ProHydrogen_21.H.28_OTA_028_all_2007240037_b03998cd3afb4bb7.zip -O downloads/temp.zip
 ./zip2img.sh downloads/temp.zip
 mkdir system
 mount cache/system.img system
